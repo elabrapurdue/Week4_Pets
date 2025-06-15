@@ -4,35 +4,35 @@ const petsData = [
     age: 7,
     weightInKilos: 24,
     breed: "Dalmation",
-    pic: "images/stella.png"
+    pic: "stella.png"
   },
   {
     petName: "Cody",
     age: 8,
     weightInKilos: 22,
     breed: "Corgi",
-    pic: "images/cody.png"
+    pic: "cody.png"
   },
   {
     petName: "Mango",
     age: 2,
     weightInKilos: 11,
     breed: "Persian",
-    pic: "images/mango.png"
+    pic: "mango.png"
   },
   {
     petName: "Lucy",
     age: 4,
     weightInKilos: 35,
     breed: "Ball Python",
-    pic: "images/lucy.png"
+    pic: "lucy.png"
   },
   {
     petName: "Buhmie",
     age: 1,
     weightInKilos: 28,
     breed: "Bull-dog",
-    pic: "images/buhmie.png"
+    pic: "buhmie.png"
     
   },
     {
@@ -40,14 +40,14 @@ const petsData = [
     age: 1,
     weightInKilos: 30,
     breed: "Dawg",
-    pic: "images/carmie.png"
+    pic: "carmie.png"
   },
     {
     petName: "Copper",
     age: 6,
     weightInKilos: 25,
     breed: "Lizard",
-    pic: "images/copper.png"
+    pic: "copper.png"
   }
 ];
 

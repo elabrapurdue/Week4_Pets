@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animals Project</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .selectedPetPic {
+      width: 200px;
+      height: auto;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="wrapper">
+   
+  <p class="petsInfo"></p>
+
+  <div class="petsList"></div>
+
+  <div class="selectPet">
+    <label for="petNum">Pet Number:</label>
+    <input type="text" id="petNum" name="petNum" maxlength="4" size="4">
+    <button onclick="showInfo()">Click for information!</button>
+
+    <p class="selectedPetInfo"></p>
+    <img class="selectedPetPic" src="images/image.png" alt="Pet" />
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
